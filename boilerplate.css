@@ -13,10 +13,29 @@ a {
     color: yellow;
 }
 
-nav {
-    align-self: center;
-    width: 100%;
+.navbar {
+    height: 80px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
 }
+/*
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+} 
+*/
 
 .headerimage {
     width: 100%;
