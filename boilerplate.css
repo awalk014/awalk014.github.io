@@ -61,10 +61,24 @@ footer {
     border-radius: 10px;
 }
 
-.headerimage{
+.image_container {
+    position: relative;
+    display: inline-block;
+}
+.headerimage {
     width: 100%;
-    display: block; /*makes the image take up the full line*/
-    max-width: 1000px; /*adjust this number to match the width of your navbar if needed.*/
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 auto; /* Center the image horizontally */
+    display: block; 
+    max-width: 1000px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+.header_quote {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
 }
