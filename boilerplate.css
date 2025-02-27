@@ -1,7 +1,7 @@
 body {
     margin: 0px 20px 20px 20px;
     padding: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: #222222;
 }
 
 .navbar {
@@ -10,10 +10,13 @@ body {
 }
 
 .navbar_container {
-    background-color: #0e42c1;
+    background-color: #757575;
     width: 100%;
     padding: 10px;
     border-radius: 10px;
+    border-color: #acacac;
+    border-width: 5px;
+    border-style: solid;
 }
 
 .navbar_menu {
@@ -43,42 +46,53 @@ body {
 main {
     margin: 20px 20px 0px 20px;
     padding: 20px;
-    background-color:#6889d8;
+    background-color:#757575;
     border-width: 2px;
     border-style: solid;
-    border-color: #0e42c1;
+    border-color: #acacac;
     border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
     margin: 0px 20px 20px 20px;
     padding: 20px;
-    background-color:#6889d8;
+    background-color:#757575;
     text-align: center;
     border-width: 2px;
     border-style: solid;
-    border-color: #0e42c1;
+    border-color: #acacac;
     border-radius: 10px;
 }
 
 .image_container {
+    
     position: relative;
     display: inline-block;
+    margin: 0 auto;
+    
 }
 .headerimage {
     width: 100%;
     display: block; 
     max-width: 1000px; 
     height: auto; 
-    margin: 0 auto; 
+    margin: 0 0;
 }
 
 .header_quote {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    max-width: 1000px;
+    bottom: 0;
+    right: 0;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 0px;
     border-radius: 5px;
+    text-align: right;
+}
+
+header {   
+    width: 100%;
+    margin: 0 0;
 }
