@@ -1,0 +1,40 @@
+.course_table {
+    width: fit-content;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.course_table td, .course_table th {
+    border: 2px solid white;
+    padding: 8px;
+}
+
+caption {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+li {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.course_table a:hover {
+    background-color: #FFC300;
+}
+
+.course_table a {
+    color: white;
+}
+
+:target {
+    background-color: #FFC300;
+    color: blue;
+}
