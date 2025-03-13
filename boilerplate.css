@@ -107,6 +107,11 @@ header {
     box-sizing: border-box; 
 }
 
+.left_side p {
+    text-align: justify;
+    padding: 5px;
+}
+
 .right_side {
     width: 40%; 
     float: right;
@@ -124,4 +129,9 @@ main::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.left_side a {
+    color: white;
+    text-align: center;
 }
