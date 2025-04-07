@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 main {
-    margin: 20px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
     padding: 20px;
     background-color:#757575;
     border-width: 2px;
